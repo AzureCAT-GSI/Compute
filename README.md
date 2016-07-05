@@ -6,7 +6,7 @@ Learn how you can run applications using Docker containers in Azure Container Se
 Become familiar with Service Fabric, which runs many services in the Azure platform, and learn how to build your own applications using Service Fabric.
 
 ## Presentation
-Download the [PowerPoint](Azure%20Scalabale%20Compute.pptx).
+Download the [PowerPoint](./Azure%20Scalable%20Compute.pptx?raw=1).
 The PowerPoint includes full speaker notes helping you understand the slides, and everything you need to deliver the session.
 
 Session duration: 90 minutes
@@ -27,12 +27,12 @@ Session duration: 90 minutes
 - Running Service Fabric applications on Azure
 - Choosing between VMs, VM Scale Set, Containers, Service Fabric, and other services
 
-## Session Prerequisits
+## Session prerequisites 
 - Knowledge of Azure VMs
 - Knowledge of disk configuration with Azure VMs
 - Knowledge of VM Availability Sets
 
-These prerequisits are covered in the [[Architecting Virtual Machine Solutions](https://github.com/GSIAzureCOE/Virtual-Machine-Solutions)] session.
+These prerequisites  are covered in the [[Architecting Virtual Machine Solutions](https://github.com/GSIAzureCOE/Virtual-Machine-Solutions)] session.
 
 ## Azure Services Covered
 - [[Virtual Machine Scale Sets](https://azure.microsoft.com/en-us/documentation/services/virtual-machine-scale-sets/)]
