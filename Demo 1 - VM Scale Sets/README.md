@@ -22,18 +22,24 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 3.  Login to the portal.
 4.  If not already selected, click **Edit Parameters**.
 
-    <img src="./media/image2.png" align="right" />
+5.  Enter the following values:
 
-5.  Enter the following values:                                                                                                                                                                                                                                   
-    a. (1) VMSSNAME: **&lt;Unique 9 character string, something like 4 letters of your alias + vmss + number&gt;** (VMSS is registered with DNS with &lt;vmssname&gt;.&lt;region&gt;.azure.com. If the name is not unique to the region, deployment will fail.)  
-    b.  (2) INSTANCECOUNT: **1**                                                                                                                                                                                                                                  
-    c.  (3) ADMINUSERNAME: **&lt;your preferred username&gt;**                                                                                                                                                                                                    
-    d.  (4) ADMINPASSWORD: **&lt;your preferred password&gt;**                                                                                                                                                                                                    
+    a.  (1) VMSSNAME: `<unique 9 character string>` (VMSS is registered with DNS with &lt;vmssname&gt;.&lt;region&gt;.azure.com. If the name is not unique to the region, deployment will fail. Use something like 4 letters of your alias + vmss + number.)
+
+    b.  (2) INSTANCECOUNT: `1`
+
+    c.  (3) ADMINUSERNAME: `<your preferred username>`
+
+    d.  (4) ADMINPASSWORD: `<your preferred password>` 
+
+    <img src="./media/image2.png" />                                                                                                                                                                                                   
 
 6.  (5) Click **OK**.
 
 7.  Make sure a new resource group is created so you can easily delete after the demo.
-    a.  (6) New resource group name: **vmssdemo**                                                                                                                                                                                                                 
+
+    a.  (6) New resource group name: `vmssdemo`
+
     b.  (7) Change the resource group location if needed
 8.  (8) Click **Review legal terms** and click **Create**.
 
@@ -49,9 +55,9 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 
 13.  Open a new browser (tab).
 
-14.  Enter **http://** and paste the DNS name copied in step \#12.
+14.  Enter `http://` and paste the DNS name copied in step \#12.
 
-15.  Enter **600** in the *Duration* textbox.
+15.  Enter `600` in the *Duration* textbox.
 
      <img src="./media/image4.png" />
                                                                                                                                                                                                                                                                    
@@ -76,11 +82,17 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 7.  Click **Edit template**.                                                                                                                                                                                                                                                 
 
 8.  Show the parameters for the template, and explain what they do.
+    
     a. **vmSku**: the VM type deployed, anything between A0 and G5. Needs the exact identifier.
+
     b. **ubuntuOSVersion**: the OS version being deployed.
+
     c. **vmssName**: Unique name of the Scale Set (9 characters).
+
     d. **instanceCount**: Number of instances to start with.
+
     d. **adminUsername**: Username for the administrator to access the VMs.
+
     e. **adminPassword**: Password for the administrator to access the VMs. 
                                                                                                                                                                                                                                                                                
 9.  Show that a limited number of storage accounts is created using a resource loop.
@@ -89,7 +101,7 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 
 10.  Show the publicIPAddresses section, and explain that for this VMSS there is only one public IP address, which is tied to the load balancer. You can scroll further down to show the load balancer, which is directly beneath the public IP address.
 
-     <img src="./media/image6.png" />
+     <img src="./media/image6.png" width="600" />
 
 11.  Show the VMSS section. Discuss the storageloop reference to the storage accounts section showed earlier.
 
@@ -127,9 +139,9 @@ The setup pre-builds a VMSS to demo later. During the demo you will also demonst
 
 24.  Open a browser (tab).
 
-25.  Enter **http://** and paste the DNS name copied in step \#23.
+25.  Enter `http://` and paste the DNS name copied in step \#23.
 
-26.  Enter **600** in the *Duration* textbox.
+26.  Enter `600` in the *Duration* textbox.
 
 27.  Click **Do work**. Explain that this will create a CPU load that will lead to auto scale.
 
