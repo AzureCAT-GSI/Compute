@@ -8,7 +8,7 @@ This section lists the pre-requisites required for this demonstration.
 - Capability to setup an SSH tunnel and generate a SSH public/private key pair. This demo script assumes the use of Windows with PuTTY and PuTTYgen (see <http://www.putty.org/>).
 
 ## Setup
-*Estimated time: 10-15 minutes (including wait time)*
+*Estimated time: 5 minutes (plus 10 minutes wait time)*
 
 ### Create an SSH public/private key pair
 1. Start PuTTYgen.
@@ -57,7 +57,7 @@ This section lists the pre-requisites required for this demonstration.
     <img src="media/dcos0.png" /> 
 
 ## Demo Steps
-*Estimated time: 0 minutes*
+*Estimated time: 10 minutes*
 
 1. Sign-in to the Azure portal (<http://portal.azure.com>).
 
