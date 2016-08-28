@@ -14,7 +14,7 @@ Session duration: 90 minutes
 ## Demos
 1. VM Scale Sets [[demo script](./Demo 1 - VM Scale Sets/README.md)] [[video](https://azurecatgsicontent.blob.core.windows.net/compute/1VMSS.mp4)]
 2. Docker, Docker Trusted Registry, Container Apps [[demo script](./Demo 2 - Docker/README.md)] [[video](https://azurecatgsicontent.blob.core.windows.net/compute/2Docker.mp4)]
-3. Azure Container Service [[demo script](./Demo 3 - Azure Container Service/README.md)]
+3. Azure Container Service [[demo script](./Demo 3 - Azure Container Service/README.md)] [[video](https://azurecatgsicontent.blob.core.windows.net/compute/3ACS.mp4)]
 4. Service Fabric [[demo script](./Demo 4 - Service Fabric/README.md)]
 
 ## Session objectives
