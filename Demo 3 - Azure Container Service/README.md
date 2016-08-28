@@ -15,11 +15,11 @@ This section lists the pre-requisites required for this demonstration.
 
 2. Click the **Generate** button to create an SSH public/private key pair, and move the mouse over the blank area as instructed.
 
-   <img src="media/puttygen2.png" />
+   <img src="media/puttygen2.png" width="400" />
 
 3. Once done, enter a keyphrase (twice).
 
-   <img src="media/puttygen3.png" />
+   <img src="media/puttygen3.png" width="400" />
 
 4. Click the **Save public key** button and save the public key as a .txtx file.
 
