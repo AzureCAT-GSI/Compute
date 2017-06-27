@@ -1,3 +1,7 @@
+> **Update:** Hello! As of 1 January 2017 this content is no longer being actively managed and updated. It is provided as-is and may contain information that has changed. Any Issues will be addressed on a best-effort basis. Please see [Azure.com](http://www.azure.com) for the latest guidance. Thank you for your understanding.
+
+---
+
 # Scalable Compute in Azure
 This session equips the Solution Architect with essential knowledge to leverage scalable and elastic compute in the Azure platform provides.
 Learn what it takes to create scalable, fault tolerant, distributed applications using Virtual Machine Scale Sets (VMSS) and Microservices Architecture.
